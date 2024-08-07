@@ -15,6 +15,7 @@ public class Group extends Observable implements Iterable<Student> {
     private GroupState                  state;
     private nummer2;
     private nummer1;
+    private nummer3;
 
     public Group(StudentService service, int groupNumber, Long... leden) {
         this.service = service;
