@@ -17,6 +17,7 @@ public class Group extends Observable implements Iterable<Student> {
     private nummer1;
     private nummer3;
     private nummer4;
+    private patchB;
     private patchC;
     private patchA;
 
