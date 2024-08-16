@@ -21,6 +21,7 @@ public class Group extends Observable implements Iterable<Student> {
     private patchC;
     private patchA;
     private versie_y;
+    private versie_y2;
 
   public Group(StudentService service, int groupNumber, Long... leden) {
         this.service = service;
